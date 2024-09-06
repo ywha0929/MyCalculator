@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         btnFraction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), FractionOptionActivity.class));
+                startActivity(new Intent(getApplicationContext(), FractionConverterActivity.class));
             }
         });
         btnGeometry.setOnClickListener(new View.OnClickListener() {
