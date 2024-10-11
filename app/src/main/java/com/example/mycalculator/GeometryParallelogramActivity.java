@@ -26,7 +26,7 @@ public class GeometryParallelogramActivity extends AppCompatActivity {
             public void onClick(View view) {
                 double A = Double.parseDouble(editParallelogramA.getText().toString());
                 double B = Double.parseDouble(editParallelogramB.getText().toString());
-                double result = A*B/2;
+                double result = A*B;
                 textParallelogramResult.setText(""+result);
             }
         });
